@@ -3,7 +3,7 @@ export const metadata = {
   description: 'Moderní marketingové řešení pro váš byznys.',
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="cs">
       <body>{children}</body>
